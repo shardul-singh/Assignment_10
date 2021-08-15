@@ -1,0 +1,24 @@
+<h1>Add Employee</h1>
+
+<form [formGroup]="addEmp" (ngSubmit)="collectEmp()">
+    <div class="form-group">
+      <label>FirstName</label>
+      <input type="text" class="form-control" placeholder="firstname" formControlName="firstname">
+      <label>LastName</label>
+      <input type="text" class="form-control" placeholder="lastname" formControlName="lastname">
+      <label>Email</label>
+      <input type="email" class="form-control" placeholder="Email" formControlName="email">
+      <label>Phone</label>
+      <input type="text" class="form-control" placeholder="Phone No" formControlName="phone">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Customer Name" formControlName="name">
+      <label>Website</label>
+      <input type="text" class="form-control" placeholder="Website" formControlName="website">
+      <label>Address</label>
+      <input type="text" class="form-control" placeholder="Address" formControlName="address">
+      <label>RoleName</label>
+      <input type="text" class="form-control" placeholder="RoleName" formControlName="role_name">
+    </div>
+    
+    <div><button type="submit" class="btn btn-primary">Submit</button></div>
+  </form>
