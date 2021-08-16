@@ -7,8 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:4200/todo",
-    optionsSuccessStatus: 200,
+    origin: "http://localhost:4200",
   })
 );
 
